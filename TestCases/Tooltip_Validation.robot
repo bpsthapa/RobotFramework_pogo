@@ -14,6 +14,7 @@ Test Teardown    Close All Browsers
 
 *** Test Cases ***
 Validate ToolTip
+    [Tags]    SmokeTest
     Identify and read all tooltips on the homepage
     Validate that each tooltip text is displayed and matches the expected content
 
