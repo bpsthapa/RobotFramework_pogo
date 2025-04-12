@@ -7,7 +7,7 @@ Resource   ../pogoKeyword/pgKeyword.robot
 ${Website}    https://www.pogo.com/
 ${browser}    chrome
 ${DriverLocation}    Driver/chromedriver
-${username}    Bipin.thapa.sec@gmail.com
+${username}    Bipin.thapa.sec@gmail.com    #bipinsec178
 ${password}    4f4DP111T!2ar&%6
 ${OUTPUT DIR}    RobotFramework_pogo/TestCases/ScreenShots
 
