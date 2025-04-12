@@ -25,6 +25,7 @@ logout from the system
 
     
 re-login to the system
+    Close All Browsers
     Login to system
     
 

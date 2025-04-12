@@ -22,7 +22,7 @@ Validate the Game Search
 *** Keywords ***
 Search for a specific game
     [Documentation]    This iwll perform the search on the Homepage
-    Wait Until Element Is Enabled    //input[@placeholder='Search for games']
+    Wait Until Element Is Enabled    //input[@placeholder='Search for games']    10s
     Input Text    //input[@placeholder='Search for games']    ${game}
     Press Keys    //input[@placeholder='Search for games']    ENTER
 
@@ -101,4 +101,6 @@ Open game in new tab and check the playnow button
 
     #switch back to main tab
     Switch Window    ${main_tab}
+    Set Screenshot Directory    NONE
     Run Keyword And Ignore Error    Click Element    //button[.//div[text()='Cancel']]
+    Set Screenshot Directory    ${OUTPUT DIR}

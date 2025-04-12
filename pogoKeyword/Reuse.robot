@@ -7,11 +7,13 @@ Resource   ../pogoKeyword/pgKeyword.robot
 ${Website}    https://www.pogo.com/
 ${browser}    chrome
 ${DriverLocation}    Driver/chromedriver
-${username}    bps.thapa@gmail.com
-${password}    4f4DP5KT!2ar&%6
+${username}    Bipin.thapa.sec@gmail.com    #bipinsec178
+${password}    4f4DP111T!2ar&%6
+${OUTPUT DIR}    RobotFramework_pogo/TestCases/ScreenShots
 
 *** Keywords ***
 Login to system
+    Set Screenshot Directory    ${OUTPUT DIR}
     Visit url
     Click with log Display    //button[.//div[text()='Sign In']]    Sign In
     Wait Until Element Is Visible    email    10s
