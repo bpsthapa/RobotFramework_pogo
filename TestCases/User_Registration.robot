@@ -39,6 +39,6 @@ Submit the registration form
 
 Validate the successful registration
     Wait Until Element Is Visible    //iframe    20s
-    Log To Console    ✅ *****The Test is consider as passed since there is PUZZLE to protect automation for resestration***** ✅       
+    Log To Console    ✅✅✅✅✅ *****The Test is consider as passed since there is PUZZLE to protect automation for restriction which need to be truned off for the automation test***** ✅✅✅✅  
 
     
