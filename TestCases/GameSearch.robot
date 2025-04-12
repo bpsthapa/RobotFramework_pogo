@@ -22,7 +22,7 @@ Validate the Game Search
 *** Keywords ***
 Search for a specific game
     [Documentation]    This iwll perform the search on the Homepage
-    Wait Until Element Is Enabled    //input[@placeholder='Search for games']
+    Wait Until Element Is Enabled    //input[@placeholder='Search for games']    10s
     Input Text    //input[@placeholder='Search for games']    ${game}
     Press Keys    //input[@placeholder='Search for games']    ENTER
 
