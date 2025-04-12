@@ -101,4 +101,6 @@ Open game in new tab and check the playnow button
 
     #switch back to main tab
     Switch Window    ${main_tab}
+    Set Screenshot Directory    NONE
     Run Keyword And Ignore Error    Click Element    //button[.//div[text()='Cancel']]
+    Set Screenshot Directory    ${OUTPUT DIR}
