@@ -6,7 +6,7 @@ Resource   ../pogoKeyword/pgKeyword.robot
 *** Variables ***
 ${Website}    https://www.pogo.com/
 ${browser}    chrome
-${DriverLocation}    pogoRobot/Driver/chromedriver
+${DriverLocation}    Driver/chromedriver
 ${username}    bps.thapa@gmail.com
 ${password}    4f4DP5KT!2ar&%6
 

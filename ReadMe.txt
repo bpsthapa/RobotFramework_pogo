@@ -1,6 +1,6 @@
 Run Test:
-    robot --include SmokeTest pogoRobot/TestCases
+    robot --include SmokeTest TestCases
 
 To view the report
-    Open /pogoRobot/report.html
+    Open RobotFramework_pogo/report.html
    
