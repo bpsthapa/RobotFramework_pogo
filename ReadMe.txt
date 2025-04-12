@@ -1,9 +1,5 @@
-Run Test:
-    robot --include SmokeTest RobotFramework_pogo/TestCases
-
 To view the report
     Open RobotFramework_pogo/report.html
-   
 
 __________________________________________________________________________________________________________________
 How to run the project
@@ -12,7 +8,7 @@ How to run the project
 https://googlechromelabs.github.io/chrome-for-testing/
 
 2) python3 -m venv venv
-3) Activate vertual environament
+3) Activate virtual environament
     On Windows, use: venv\Scripts\activate
     On macOS or Linux use: source venv/bin/activate
 
