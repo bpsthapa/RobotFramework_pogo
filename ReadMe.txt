@@ -12,7 +12,9 @@ How to run the project
 https://googlechromelabs.github.io/chrome-for-testing/
 
 2) python3 -m venv venv
-3) source venv/bin/activate
+3) Activate vertual environament
+    On Windows, use: venv\Scripts\activate
+    On macOS or Linux use: source venv/bin/activate
 
 4)  Navigate into RobotFramework_pogo/
 pip install -r requirements.txt
